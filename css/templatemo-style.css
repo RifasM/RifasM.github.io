@@ -265,6 +265,8 @@ h1,h2,h3,h4,h5
 #work .media p
 		{
 				transition: all 0.4s ease-in;
+				text-align: justify;
+  			text-justify: inter-word;
 		}
 #work .media-link
 {
