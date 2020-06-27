@@ -240,7 +240,7 @@ h1,h2,h3,h4,h5
         vertical-align: middle;
         transition: all 0.4s ease-in;
     }
-#work .media .fa:hover
+#work .media:hover .fa
     {
         background: #ffffff;
         cursor: pointer;
@@ -250,14 +250,36 @@ h1,h2,h3,h4,h5
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
+				transition: all 0.4s ease-in;
     }
+#work .media:hover
+		{
+				font-size: 19px;
+				color: #ffffff;
+		}
+#work .media:hover .media-heading
+		{
+			  font-size: 25px;
+				color: #10C6A8;
+		}
+#work .media p
+		{
+				transition: all 0.4s ease-in;
+				text-align: justify;
+  			text-justify: inter-word;
+		}
+#work .media-link
+{
+				text-decoration: none;
+				color: inherit;
+}
 /* end work */
 
 /* start about */
 #about h4
     {
         padding: 15px 0;
-		color: #10C6A8;
+				color: #10C6A8;
     }
 #about .progress
     {
@@ -349,7 +371,12 @@ h1,h2,h3,h4,h5
         line-height: 45px;
         text-align: center;
         margin-right: 20px;
+				transition: all 0.2s ease-in;
     }
+#contact .fa:hover
+		{
+				color: #FFFFFF;
+		}
 #contact .form-control
     {
         background: transparent;
