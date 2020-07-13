@@ -36,6 +36,10 @@ body
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
 
+#values,
+#values .fp-slide,
+#values .fp-tableCell,
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell
@@ -54,7 +58,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact, #values
     {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -309,10 +313,44 @@ h1,h2,h3,h4,h5
     }
 /* end about */
 
+/* start values */
+#values
+    {
+        background: #1a1a1a;
+				padding: 5%;
+    }
+#values h2
+    {
+        text-align: center;
+    }
+#values .media-heading{
+			  color: #10C6A8;
+		}
+#values .media:hover
+		{
+				font-size: 19px;
+				color: #10C6A8;
+		}
+#values .media:hover .media-heading
+		{
+			  font-size: 25px;
+				color: #ffffff;
+		}
+#values .media p
+		{
+				transition: all 0.4s ease-in;
+				text-align: justify;
+  			text-justify: outer-word;
+		}
+#values .media-body-right
+		{
+				text-align: right;
+		}
+/* end values */
+
 /* start portfolio */
 #portfolio
     {
-        background: #1a1a1a;
         text-align: center;
     }
 #portfolio h2
@@ -348,6 +386,10 @@ h1,h2,h3,h4,h5
 /* end portfolio */
 
 /* start contact */
+
+#contact{
+	background: #1a1a1a;
+}
 
 #contact address
     {
