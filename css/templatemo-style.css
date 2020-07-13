@@ -328,12 +328,10 @@ h1,h2,h3,h4,h5
 		}
 #values .media:hover
 		{
-				font-size: 19px;
 				color: #10C6A8;
 		}
 #values .media:hover .media-heading
 		{
-			  font-size: 25px;
 				color: #ffffff;
 		}
 #values .media p
