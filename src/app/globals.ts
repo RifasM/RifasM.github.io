@@ -4,6 +4,7 @@ import { Injectable } from "@angular/core";
 export class Globals {
   firstName = 'Mohammed';
   lastName = 'Rifas S';
+  nickName = 'Ping';
   address = 'Bangalore, Karnataka, India';
   email = 'mohd.rifas.s [AT] GoogleMAIL [dot] COM';
 

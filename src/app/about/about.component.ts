@@ -18,11 +18,11 @@ export class AboutComponent implements OnInit {
      "I love web development using Django, Spring Boot and have built various apps for the clubs I've been part of,"+
      "to the startups that have contacted me to get their presence known online.",
      "Outside work, I love spending time working on my bike (loads to fix and taking it slow), "+
-     "I love watching movies, a big-time star wars, and a marvel fan, and, I can always be found playing one game "+
-     "- Forza Horizon."];
+     "I love watching movies, a big-time star wars, and a marvel fan, and, I can always be found playing a few games "+
+     "- one of them being Forza Horizon."];
 
   randomFunnyTextArray: string[] = [
-    "sudo, will you marry me?",
+    "I'm not a morning person, but I'm a programmer, so I stay up all night.",
     "I haven't touched that code in weeks",
     "Its compiling, I swear",
     "missing a semicolon;",
