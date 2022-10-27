@@ -1,6 +1,5 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Globals} from "../globals";
-import {NgbModalRef} from "@ng-bootstrap/ng-bootstrap";
 import {MatDialog} from "@angular/material/dialog";
 import {SimpleDialogComponent} from "../simple-dialog/simple-dialog.component";
 

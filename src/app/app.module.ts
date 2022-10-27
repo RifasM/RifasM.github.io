@@ -16,6 +16,7 @@ import {ClipboardModule} from "@angular/cdk/clipboard";
 import { SimpleDialogComponent } from './simple-dialog/simple-dialog.component';
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
+import {MatSidenavModule} from "@angular/material/sidenav";
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {MatButtonModule} from "@angular/material/button";
     MatTooltipModule,
     ClipboardModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule
   ],
   bootstrap: [AppComponent]
 })

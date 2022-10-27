@@ -1,13 +1,13 @@
 <section class="resume-section" id="about">
   <div class="resume-section-content">
-    <h1 class="mb-0 heading">
+    <h1 class="mb-0 h1-main">
       {{ globals.firstName }}
       <span class="text-primary">{{ globals.lastName }}</span>
     </h1>
-    <div class="subheading mb-2">
+    <div class="subheading mb-2 h3-main address">
       {{ globals.address }}
     </div>
-    <div class="mb-5">
+    <div class="mb-5 lead">
       <q>{{ randomText }}</q>
     </div>
     <div class="mb-5">
@@ -27,6 +27,8 @@
       openDialog('Hi there!!', ['I need to know you aren\'t a bot', 'Well, since you aren\'t, here is my email:', globals.email])"
          [matTooltip]="'I need to know you aren\'t a bot..... Well, since you aren\'t, here is my email: ' + globals.email">
         <i class="fa fa-envelope"></i></a>
+      <a class="social-icon m-2" matTooltip="Trying my best to be smart"
+         href="https://orcid.org/0000-0002-6216-6204"><i class="fab fa-orcid"></i></a>
     </div>
   </div>
 </section>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit} from '@angular/core';
 import {Globals} from "../globals";
 
 @Component({
@@ -15,10 +15,4 @@ export class NavigationComponent implements OnInit {
   }
 
 }
-
-
-/*
-
-
-*/
 
