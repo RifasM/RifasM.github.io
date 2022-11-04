@@ -2,12 +2,20 @@
   <a class="navbar-brand" href="#page-top">
     <span class="d-block d-lg-none">{{globals.lastName}}, {{globals.firstName}}</span>
 <!--    TODO: Make the profile photo square-->
-    <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/profile.jpg" alt="..." /></span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+           src="https://media-exp1.licdn.com/dms/image/D5603AQEoOULY426zFw/profile-displayphoto-shrink_200_200/0/1667538135737?e=1672876800&v=beta&t=nLI0WEQvdoNACqhN-F1T0KI7O4qcdPEqfrdtybQ23H0"
+           alt="Profile Picture" />
+    </span>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="navbarResponsive" data-bs-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav">
-      <li class="nav-item active"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
@@ -15,31 +23,4 @@
       <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
     </ul>
   </div>
-  <script>
-    window.addEventListener('DOMContentLoaded', event => {
-
-      // Activate Bootstrap scrollspy on the main nav element
-      const sideNav = document.body.querySelector('#sideNav');
-      if (sideNav) {
-        new bootstrap.ScrollSpy(document.body, {
-          target: '#sideNav',
-          offset: 74,
-        });
-      };
-
-      // Collapse responsive navbar when toggler is visible
-      const navbarToggler = document.body.querySelector('.navbar-toggler');
-      const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-      );
-      responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-          if (window.getComputedStyle(navbarToggler).display !== 'none') {
-            navbarToggler.click();
-          }
-        });
-      });
-
-    });
-  </script>
 </nav>

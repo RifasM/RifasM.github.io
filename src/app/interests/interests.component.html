@@ -5,11 +5,12 @@
       Most of the time I am down fixing up some bike or a car. Otherwise I can be found drawing
       or sketching a landscape. Recently I have discovered my interest in VFX and I am working
       towards honing my skills in that domain.</p>
-    <p class="mb-0 lead">When forced indoors, I follow a number of sci-fi and action genre movies and television shows,
+    <p class="mb-0 lead">When forced indoors, I follow a number of sci-fi and
+      action genre movies and <i (click)="showHiddenInterests()">television shows</i>,
       I am an aspiring gamer, and I spend a large amount of my free time exploring the latest technology
       advancements in the web development and machine learning world.</p>
 
-    <ul class="list-inline dev-icons mt-5 mb-5">
+    <ul class="list-inline dev-icons mt-5 mb-5 visually-hidden" #hiddenInterests>
       <li matTooltip="Silicon Valley!!"
           class="list-inline-item m-2"><i class="fab fa-pied-piper"></i></li>
       <li matTooltip="Richard Hendricks!!"

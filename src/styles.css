@@ -482,7 +482,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem !important;
+  font-size: 1.15rem !important;
   font-weight: 300 !important;
 }
 
@@ -11394,6 +11394,10 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+.dev-icons li {
+  margin: 2px;
 }
 
 section.resume-section {

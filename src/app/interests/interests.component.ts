@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-interests',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InterestsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private hiddenInterestRef: ElementRef) { }
 
   ngOnInit(): void {
   }
 
+  showHiddenInterests() {
+    const ulElement = this.hiddenInterestRef.nativeElement.querySelector('ul').classList;
+    if(ulElement.contains('visually-hidden')) {
+      ulElement.remove('visually-hidden');
+    }
+    else {
+      ulElement.add('visually-hidden');
+    }
+  }
 }
