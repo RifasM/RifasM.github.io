@@ -12,10 +12,10 @@ export class AboutComponent implements OnInit {
   aboutText: string[] = ["I always thought my dream was to be an artist, sipping coffee, walking around, "+
      "but turns out it was just a hobby.", "I love connecting with new folks. I never get tired of doing"+
      "something that I love, be it coding or fixing up my bike."+
-     "I do face setbacks, but, what comes later, pure bliss.",
-     "Innovation and research intrigue me, I would dive right in to understand it better, and if possible"+
-     "provide my contribution. Machine Learning is something that interests me but not as much as Development."+
-     "I love web development using Django, Spring Boot and have built various apps for the clubs I've been part of,"+
+     "I do face setbacks, but, what comes later, pure bliss. ",
+     "Innovation and research intrigue me, I would dive right in to understand it better, and if possible "+
+     "provide my contribution. Machine Learning is something that interests me but not as much as Development. "+
+     "I love web development using Django, Spring Boot and have built various apps for the clubs I've been part of, "+
      "to the startups that have contacted me to get their presence known online.",
      "Outside work, I love spending time working on my bike (loads to fix and taking it slow), "+
      "I love watching movies, a big-time star wars, and a marvel fan, and, I can always be found playing a few games "+
