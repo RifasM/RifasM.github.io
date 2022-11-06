@@ -11,12 +11,12 @@ import { SkillsComponent } from './skills/skills.component';
 import { InterestsComponent } from './interests/interests.component';
 import { AwardsComponent } from './awards/awards.component';
 import { ExperienceComponent } from './experience/experience.component';
-import {MatTooltipModule} from "@angular/material/tooltip";
-import {ClipboardModule} from "@angular/cdk/clipboard";
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 import { SimpleDialogComponent } from './simple-dialog/simple-dialog.component';
-import {MatDialogModule} from "@angular/material/dialog";
-import {MatButtonModule} from "@angular/material/button";
-import {MatSidenavModule} from "@angular/material/sidenav";
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -38,8 +38,8 @@ import {MatSidenavModule} from "@angular/material/sidenav";
     ClipboardModule,
     MatDialogModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

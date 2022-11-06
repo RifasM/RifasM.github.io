@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-awards',
   templateUrl: './awards.component.html',
-  styleUrls: ['./awards.component.css']
+  styleUrls: ['./awards.component.css'],
 })
 export class AwardsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

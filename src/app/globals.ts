@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable } from '@angular/core';
 
 @Injectable()
 export class Globals {
@@ -9,7 +9,8 @@ export class Globals {
   email = 'mohd.rifas.s [AT] GoogleMAIL [dot] COM';
 
   async delay(ms: number) {
-    await new Promise<void>(resolve => setTimeout(()=>resolve(), ms))
-      .then(()=>{});
+    await new Promise<void>((resolve) => setTimeout(() => resolve(), ms)).then(
+      () => {}
+    );
   }
 }
