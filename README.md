@@ -1,3 +1,8 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/rifasm/rifasm.github.io/badge)](https://www.codefactor.io/repository/github/rifasm/rifasm.github.io)
+[![CodeQL](https://github.com/RifasM/rifasm.github.io/actions/workflows/codeql.yml/badge.svg)](https://github.com/RifasM/rifasm.github.io/actions/workflows/codeql.yml)
+
+---
+
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.

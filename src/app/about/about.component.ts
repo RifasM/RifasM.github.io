@@ -50,7 +50,7 @@ export class AboutComponent implements OnInit {
   getRandomText():string {
     const random:number = Math.floor(Math.random() * (this.randomFunnyTextArray.length));
     return this.randomFunnyTextArray[random];
-  };
+  }
 
   openDialog(title: string, body: string[]): void {
     this.dialog.open(SimpleDialogComponent, {
