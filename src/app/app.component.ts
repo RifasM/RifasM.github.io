@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import {Globals} from "./globals";
+import { Globals } from './globals';
 
 @Component({
   selector: 'app-root',
-  providers: [ Globals ],
+  providers: [Globals],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'Portfolio';
 
-  constructor(public globals: Globals) { }
+  constructor(public globals: Globals) {}
 }
