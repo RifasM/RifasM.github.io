@@ -43,7 +43,10 @@ export class AboutComponent implements OnInit {
   username: string = 'rifasm';
   randomText: string = 'hmm';
 
-  constructor(public globals: Globals, public dialog: MatDialog) {}
+  constructor(
+    public globals: Globals,
+    public dialog: MatDialog,
+  ) {}
 
   ngOnInit(): void {
     this.randomText = this.getRandomText();
@@ -51,7 +54,7 @@ export class AboutComponent implements OnInit {
 
   getRandomText(): string {
     const random: number = Math.floor(
-      Math.random() * this.randomFunnyTextArray.length
+      Math.random() * this.randomFunnyTextArray.length,
     );
     return this.randomFunnyTextArray[random];
   }

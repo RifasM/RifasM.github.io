@@ -10,7 +10,7 @@ export class SimpleDialogComponent implements OnInit {
   constructor(
     public dialogRef: MatDialogRef<SimpleDialogComponent>,
     @Inject(MAT_DIALOG_DATA)
-    public data: { title: string; bodyText: string[]; isActionDialog: boolean }
+    public data: { title: string; bodyText: string[]; isActionDialog: boolean },
   ) {}
 
   ngOnInit(): void {}
